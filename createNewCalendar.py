@@ -7,7 +7,7 @@ from requests_html import HTMLSession
 from datetime import datetime
 import re
 
-client = caldav.DAVClient(url='https://ppp.woelkli.com/remote.php/dav', username='leonjaeger000@gmail.com', password='Leonjaeger00')
+client = caldav.DAVClient(url='https://ppp.woelkli.com/remote.php/dav', username='', password='')
 
 principal = client.principal()
 calendars = principal.calendars()
