@@ -33,7 +33,7 @@ def addEventToCaldav(calendar,schoolEvent):
     print (event.instance.vevent.summary.value, "(" + str(event.instance.vevent.dtstart.value.day) + "." + str(event.instance.vevent.dtstart.value.month) + ")", "created!")
 
 def connectCaldavClient():
-    client = caldav.DAVClient(url='https://ppp.woelkli.com/remote.php/dav', username='leonjaeger000@gmail.com', password='Leonjaeger00')
+    client = caldav.DAVClient(url='https://ppp.woelkli.com/remote.php/dav', username='', password='')
     
     principal = client.principal()
     calendars = principal.calendars()
