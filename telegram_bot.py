@@ -37,7 +37,7 @@ class BotHandler:
         return last_update
 
 
-token = '1425699350:AAGXUr1mdThWnfDyM4fETYO3ozvc5I6Tcx4' 
+token = '' 
 CalUpdaterBot = BotHandler(token) 
 
 def main():
